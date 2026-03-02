@@ -1,0 +1,35 @@
+a =int(input("Enter your age: ")) 
+
+# if statement number_01
+
+if a % 2 == 0:
+    print("a is even")
+
+# end of if statement number_01
+
+# if statement number_02
+    
+
+if(a>=18):
+    print("You are eligible to vote.")
+    print("You can participate in elections.")
+
+   
+elif(a==0):
+    print("Age cannot be zero. Please enter a valid age.")
+    
+
+elif(a<0):
+    print("Invalid age entered. Please enter a valid age.")
+
+    
+else:
+    print("You are not eligible to vote.")
+    print("You have to wait until you turn 18.") 
+
+
+
+# end if statement number_02
+
+
+print("Thank you!")
